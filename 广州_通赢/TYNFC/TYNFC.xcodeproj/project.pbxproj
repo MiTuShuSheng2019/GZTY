@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A151665C73BF06DB71FA62BE /* libPods-TYNFC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C646035022F55C917A29DD /* libPods-TYNFC.a */; };
+		D63B0BB9200D90E6001C0251 /* TYShowHud.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B0BB8200D90E6001C0251 /* TYShowHud.m */; };
+		D640C6A71FFC7274005E8F86 /* QRCodeAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = D640C6A61FFC7274005E8F86 /* QRCodeAreaView.m */; };
+		D640C6AB1FFC7353005E8F86 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D640C6AA1FFC7353005E8F86 /* UIView+Extension.m */; };
+		D640C6AE1FFC7BB7005E8F86 /* QRCodeBacgrouView.m in Sources */ = {isa = PBXBuildFile; fileRef = D640C6AD1FFC7BB7005E8F86 /* QRCodeBacgrouView.m */; };
+		D640C6B21FFC7CF8005E8F86 /* TYQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D640C6B11FFC7CF8005E8F86 /* TYQRCodeViewController.m */; };
+		D644DAD31FFDF44B0032EA16 /* TYNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D644DAD21FFDF44B0032EA16 /* TYNetworkRequest.m */; };
+		D668DB42200CAF94002303DA /* FourVerificationCodeQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D668DB40200CAF94002303DA /* FourVerificationCodeQuery.m */; };
+		D668DB43200CAF94002303DA /* FourVerificationCodeQuery.xib in Resources */ = {isa = PBXBuildFile; fileRef = D668DB41200CAF94002303DA /* FourVerificationCodeQuery.xib */; };
+		D668DB47200CB2E6002303DA /* NFCVerificationQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D668DB45200CB2E6002303DA /* NFCVerificationQuery.m */; };
+		D668DB48200CB2E6002303DA /* NFCVerificationQuery.xib in Resources */ = {isa = PBXBuildFile; fileRef = D668DB46200CB2E6002303DA /* NFCVerificationQuery.xib */; };
+		D68E94171FF4C7CC0075F5AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E94161FF4C7CC0075F5AB /* AppDelegate.m */; };
+		D68E941A1FF4C7CC0075F5AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E94191FF4C7CC0075F5AB /* ViewController.m */; };
+		D68E941D1FF4C7CC0075F5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68E941B1FF4C7CC0075F5AB /* Main.storyboard */; };
+		D68E941F1FF4C7CC0075F5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68E941E1FF4C7CC0075F5AB /* Assets.xcassets */; };
+		D68E94221FF4C7CC0075F5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68E94201FF4C7CC0075F5AB /* LaunchScreen.storyboard */; };
+		D68E942F1FF4C7CC0075F5AB /* TYNFCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E942E1FF4C7CC0075F5AB /* TYNFCUITests.m */; };
+		D68E943A1FF4CD040075F5AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E94241FF4C7CC0075F5AB /* main.m */; };
+		D68E943B1FF4CD9A0075F5AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E94241FF4C7CC0075F5AB /* main.m */; };
+		D6D6F00D1FFF2C57007B7C8E /* LoadWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6F00C1FFF2C57007B7C8E /* LoadWebViewController.m */; };
+		D6D6F0151FFF2F55007B7C8E /* TYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6F00F1FFF2F54007B7C8E /* TYTabBarViewController.m */; };
+		D6D6F0161FFF2F55007B7C8E /* TYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6F0111FFF2F55007B7C8E /* TYBaseViewController.m */; };
+		D6D6F0171FFF2F55007B7C8E /* TYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6F0131FFF2F55007B7C8E /* TYNavigationViewController.m */; };
+		D6D6F01A1FFF2F9C007B7C8E /* TYDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6F0181FFF2F9B007B7C8E /* TYDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68E942B1FF4C7CC0075F5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68E940A1FF4C7CC0075F5AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68E94111FF4C7CC0075F5AB;
+			remoteInfo = TYNFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61AEC20FE474B788009827F7 /* Pods-TYNFC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYNFC.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYNFC/Pods-TYNFC.release.xcconfig"; sourceTree = "<group>"; };
+		A8C646035022F55C917A29DD /* libPods-TYNFC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYNFC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63B0BB7200D90E6001C0251 /* TYShowHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYShowHud.h; sourceTree = "<group>"; };
+		D63B0BB8200D90E6001C0251 /* TYShowHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYShowHud.m; sourceTree = "<group>"; };
+		D640C6A51FFC7274005E8F86 /* QRCodeAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeAreaView.h; sourceTree = "<group>"; };
+		D640C6A61FFC7274005E8F86 /* QRCodeAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeAreaView.m; sourceTree = "<group>"; };
+		D640C6A91FFC7353005E8F86 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D640C6AA1FFC7353005E8F86 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		D640C6AC1FFC7BB7005E8F86 /* QRCodeBacgrouView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeBacgrouView.h; sourceTree = "<group>"; };
+		D640C6AD1FFC7BB7005E8F86 /* QRCodeBacgrouView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeBacgrouView.m; sourceTree = "<group>"; };
+		D640C6B01FFC7CF8005E8F86 /* TYQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYQRCodeViewController.h; sourceTree = "<group>"; };
+		D640C6B11FFC7CF8005E8F86 /* TYQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYQRCodeViewController.m; sourceTree = "<group>"; };
+		D640C6B31FFC84BE005E8F86 /* TYNFCPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNFCPrefixHeader.pch; sourceTree = "<group>"; };
+		D644DAD11FFDF44B0032EA16 /* TYNetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNetworkRequest.h; sourceTree = "<group>"; };
+		D644DAD21FFDF44B0032EA16 /* TYNetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNetworkRequest.m; sourceTree = "<group>"; };
+		D668DB3F200CAF94002303DA /* FourVerificationCodeQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourVerificationCodeQuery.h; sourceTree = "<group>"; };
+		D668DB40200CAF94002303DA /* FourVerificationCodeQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourVerificationCodeQuery.m; sourceTree = "<group>"; };
+		D668DB41200CAF94002303DA /* FourVerificationCodeQuery.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourVerificationCodeQuery.xib; sourceTree = "<group>"; };
+		D668DB44200CB2E6002303DA /* NFCVerificationQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFCVerificationQuery.h; sourceTree = "<group>"; };
+		D668DB45200CB2E6002303DA /* NFCVerificationQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFCVerificationQuery.m; sourceTree = "<group>"; };
+		D668DB46200CB2E6002303DA /* NFCVerificationQuery.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NFCVerificationQuery.xib; sourceTree = "<group>"; };
+		D68E94121FF4C7CC0075F5AB /* TYNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68E94151FF4C7CC0075F5AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D68E94161FF4C7CC0075F5AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D68E94181FF4C7CC0075F5AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D68E94191FF4C7CC0075F5AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D68E941C1FF4C7CC0075F5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D68E941E1FF4C7CC0075F5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D68E94211FF4C7CC0075F5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D68E94231FF4C7CC0075F5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68E94241FF4C7CC0075F5AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D68E942A1FF4C7CC0075F5AB /* TYNFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYNFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68E942E1FF4C7CC0075F5AB /* TYNFCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNFCUITests.m; sourceTree = "<group>"; };
+		D68E94301FF4C7CC0075F5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68E94391FF4CA2E0075F5AB /* TYNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TYNFC.entitlements; sourceTree = "<group>"; };
+		D6D6F00B1FFF2C57007B7C8E /* LoadWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadWebViewController.h; sourceTree = "<group>"; };
+		D6D6F00C1FFF2C57007B7C8E /* LoadWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadWebViewController.m; sourceTree = "<group>"; };
+		D6D6F00F1FFF2F54007B7C8E /* TYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarViewController.m; sourceTree = "<group>"; };
+		D6D6F0101FFF2F54007B7C8E /* TYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarViewController.h; sourceTree = "<group>"; };
+		D6D6F0111FFF2F55007B7C8E /* TYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseViewController.m; sourceTree = "<group>"; };
+		D6D6F0121FFF2F55007B7C8E /* TYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigationViewController.h; sourceTree = "<group>"; };
+		D6D6F0131FFF2F55007B7C8E /* TYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigationViewController.m; sourceTree = "<group>"; };
+		D6D6F0141FFF2F55007B7C8E /* TYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseViewController.h; sourceTree = "<group>"; };
+		D6D6F0181FFF2F9B007B7C8E /* TYDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDevice.m; sourceTree = "<group>"; };
+		D6D6F0191FFF2F9B007B7C8E /* TYDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDevice.h; sourceTree = "<group>"; };
+		E6E2D7100716ACA44A82080D /* Pods-TYNFC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYNFC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYNFC/Pods-TYNFC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68E940F1FF4C7CC0075F5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A151665C73BF06DB71FA62BE /* libPods-TYNFC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E94271FF4C7CC0075F5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FFFD7421C1174A997DC8A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2D7100716ACA44A82080D /* Pods-TYNFC.debug.xcconfig */,
+				61AEC20FE474B788009827F7 /* Pods-TYNFC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F30E06997AE93158BD0BD4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8C646035022F55C917A29DD /* libPods-TYNFC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D640C6A31FFC7252005E8F86 /* SweepCode_扫码查询 */ = {
+			isa = PBXGroup;
+			children = (
+				D640C6AF1FFC7CE3005E8F86 /* Controller */,
+				D640C6A41FFC726B005E8F86 /* View */,
+			);
+			path = "SweepCode_扫码查询";
+			sourceTree = "<group>";
+		};
+		D640C6A41FFC726B005E8F86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D640C6A51FFC7274005E8F86 /* QRCodeAreaView.h */,
+				D640C6A61FFC7274005E8F86 /* QRCodeAreaView.m */,
+				D640C6AC1FFC7BB7005E8F86 /* QRCodeBacgrouView.h */,
+				D640C6AD1FFC7BB7005E8F86 /* QRCodeBacgrouView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D640C6A81FFC72F0005E8F86 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6F0191FFF2F9B007B7C8E /* TYDevice.h */,
+				D6D6F0181FFF2F9B007B7C8E /* TYDevice.m */,
+				D63B0BB7200D90E6001C0251 /* TYShowHud.h */,
+				D63B0BB8200D90E6001C0251 /* TYShowHud.m */,
+				D640C6A91FFC7353005E8F86 /* UIView+Extension.h */,
+				D640C6AA1FFC7353005E8F86 /* UIView+Extension.m */,
+				D6D6F00B1FFF2C57007B7C8E /* LoadWebViewController.h */,
+				D6D6F00C1FFF2C57007B7C8E /* LoadWebViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D640C6AF1FFC7CE3005E8F86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D640C6B01FFC7CF8005E8F86 /* TYQRCodeViewController.h */,
+				D640C6B11FFC7CF8005E8F86 /* TYQRCodeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D644DAD01FFDC06E0032EA16 /* NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D644DAD11FFDF44B0032EA16 /* TYNetworkRequest.h */,
+				D644DAD21FFDF44B0032EA16 /* TYNetworkRequest.m */,
+			);
+			path = NetworkRequest;
+			sourceTree = "<group>";
+		};
+		D68E94091FF4C7CC0075F5AB = {
+			isa = PBXGroup;
+			children = (
+				D68E94141FF4C7CC0075F5AB /* TYNFC */,
+				D68E942D1FF4C7CC0075F5AB /* TYNFCUITests */,
+				D68E94131FF4C7CC0075F5AB /* Products */,
+				03FFFD7421C1174A997DC8A4 /* Pods */,
+				8F30E06997AE93158BD0BD4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D68E94131FF4C7CC0075F5AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68E94121FF4C7CC0075F5AB /* TYNFC.app */,
+				D68E942A1FF4C7CC0075F5AB /* TYNFCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68E94141FF4C7CC0075F5AB /* TYNFC */ = {
+			isa = PBXGroup;
+			children = (
+				D68E94391FF4CA2E0075F5AB /* TYNFC.entitlements */,
+				D6D6F00E1FFF2F48007B7C8E /* BaseController */,
+				D640C6A81FFC72F0005E8F86 /* Common */,
+				D644DAD01FFDC06E0032EA16 /* NetworkRequest */,
+				D68E94151FF4C7CC0075F5AB /* AppDelegate.h */,
+				D68E94161FF4C7CC0075F5AB /* AppDelegate.m */,
+				D68E94181FF4C7CC0075F5AB /* ViewController.h */,
+				D68E94191FF4C7CC0075F5AB /* ViewController.m */,
+				D668DB3F200CAF94002303DA /* FourVerificationCodeQuery.h */,
+				D668DB40200CAF94002303DA /* FourVerificationCodeQuery.m */,
+				D668DB41200CAF94002303DA /* FourVerificationCodeQuery.xib */,
+				D668DB44200CB2E6002303DA /* NFCVerificationQuery.h */,
+				D668DB45200CB2E6002303DA /* NFCVerificationQuery.m */,
+				D668DB46200CB2E6002303DA /* NFCVerificationQuery.xib */,
+				D640C6A31FFC7252005E8F86 /* SweepCode_扫码查询 */,
+				D68E94231FF4C7CC0075F5AB /* Info.plist */,
+			);
+			path = TYNFC;
+			sourceTree = "<group>";
+		};
+		D68E942D1FF4C7CC0075F5AB /* TYNFCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68E941B1FF4C7CC0075F5AB /* Main.storyboard */,
+				D68E941E1FF4C7CC0075F5AB /* Assets.xcassets */,
+				D68E94201FF4C7CC0075F5AB /* LaunchScreen.storyboard */,
+				D68E94241FF4C7CC0075F5AB /* main.m */,
+				D68E942E1FF4C7CC0075F5AB /* TYNFCUITests.m */,
+				D68E94301FF4C7CC0075F5AB /* Info.plist */,
+				D640C6B31FFC84BE005E8F86 /* TYNFCPrefixHeader.pch */,
+			);
+			path = TYNFCUITests;
+			sourceTree = "<group>";
+		};
+		D6D6F00E1FFF2F48007B7C8E /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6F0141FFF2F55007B7C8E /* TYBaseViewController.h */,
+				D6D6F0111FFF2F55007B7C8E /* TYBaseViewController.m */,
+				D6D6F0121FFF2F55007B7C8E /* TYNavigationViewController.h */,
+				D6D6F0131FFF2F55007B7C8E /* TYNavigationViewController.m */,
+				D6D6F0101FFF2F54007B7C8E /* TYTabBarViewController.h */,
+				D6D6F00F1FFF2F54007B7C8E /* TYTabBarViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68E94111FF4C7CC0075F5AB /* TYNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68E94331FF4C7CC0075F5AB /* Build configuration list for PBXNativeTarget "TYNFC" */;
+			buildPhases = (
+				2A815DB88E2C10F34E45C188 /* [CP] Check Pods Manifest.lock */,
+				D68E940E1FF4C7CC0075F5AB /* Sources */,
+				D68E940F1FF4C7CC0075F5AB /* Frameworks */,
+				D68E94101FF4C7CC0075F5AB /* Resources */,
+				7F040796C03DC347DA224152 /* [CP] Embed Pods Frameworks */,
+				1CF59D54AEDB1FDB1E365151 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYNFC;
+			productName = TYNFC;
+			productReference = D68E94121FF4C7CC0075F5AB /* TYNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68E94291FF4C7CC0075F5AB /* TYNFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68E94361FF4C7CC0075F5AB /* Build configuration list for PBXNativeTarget "TYNFCUITests" */;
+			buildPhases = (
+				D68E94261FF4C7CC0075F5AB /* Sources */,
+				D68E94271FF4C7CC0075F5AB /* Frameworks */,
+				D68E94281FF4C7CC0075F5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68E942C1FF4C7CC0075F5AB /* PBXTargetDependency */,
+			);
+			name = TYNFCUITests;
+			productName = TYNFCUITests;
+			productReference = D68E942A1FF4C7CC0075F5AB /* TYNFCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68E940A1FF4C7CC0075F5AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "刘燚";
+				TargetAttributes = {
+					D68E94111FF4C7CC0075F5AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+					D68E94291FF4C7CC0075F5AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D68E94111FF4C7CC0075F5AB;
+					};
+				};
+			};
+			buildConfigurationList = D68E940D1FF4C7CC0075F5AB /* Build configuration list for PBXProject "TYNFC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68E94091FF4C7CC0075F5AB;
+			productRefGroup = D68E94131FF4C7CC0075F5AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68E94111FF4C7CC0075F5AB /* TYNFC */,
+				D68E94291FF4C7CC0075F5AB /* TYNFCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68E94101FF4C7CC0075F5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68E94221FF4C7CC0075F5AB /* LaunchScreen.storyboard in Resources */,
+				D668DB48200CB2E6002303DA /* NFCVerificationQuery.xib in Resources */,
+				D68E941F1FF4C7CC0075F5AB /* Assets.xcassets in Resources */,
+				D668DB43200CAF94002303DA /* FourVerificationCodeQuery.xib in Resources */,
+				D68E941D1FF4C7CC0075F5AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E94281FF4C7CC0075F5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF59D54AEDB1FDB1E365151 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TYNFC/Pods-TYNFC-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYNFC/Pods-TYNFC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A815DB88E2C10F34E45C188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYNFC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F040796C03DC347DA224152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYNFC/Pods-TYNFC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68E940E1FF4C7CC0075F5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6F00D1FFF2C57007B7C8E /* LoadWebViewController.m in Sources */,
+				D640C6AB1FFC7353005E8F86 /* UIView+Extension.m in Sources */,
+				D68E943B1FF4CD9A0075F5AB /* main.m in Sources */,
+				D6D6F0171FFF2F55007B7C8E /* TYNavigationViewController.m in Sources */,
+				D640C6AE1FFC7BB7005E8F86 /* QRCodeBacgrouView.m in Sources */,
+				D63B0BB9200D90E6001C0251 /* TYShowHud.m in Sources */,
+				D640C6A71FFC7274005E8F86 /* QRCodeAreaView.m in Sources */,
+				D640C6B21FFC7CF8005E8F86 /* TYQRCodeViewController.m in Sources */,
+				D6D6F0161FFF2F55007B7C8E /* TYBaseViewController.m in Sources */,
+				D644DAD31FFDF44B0032EA16 /* TYNetworkRequest.m in Sources */,
+				D68E941A1FF4C7CC0075F5AB /* ViewController.m in Sources */,
+				D68E94171FF4C7CC0075F5AB /* AppDelegate.m in Sources */,
+				D6D6F0151FFF2F55007B7C8E /* TYTabBarViewController.m in Sources */,
+				D668DB42200CAF94002303DA /* FourVerificationCodeQuery.m in Sources */,
+				D668DB47200CB2E6002303DA /* NFCVerificationQuery.m in Sources */,
+				D6D6F01A1FFF2F9C007B7C8E /* TYDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68E94261FF4C7CC0075F5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68E943A1FF4CD040075F5AB /* main.m in Sources */,
+				D68E942F1FF4C7CC0075F5AB /* TYNFCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68E942C1FF4C7CC0075F5AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68E94111FF4C7CC0075F5AB /* TYNFC */;
+			targetProxy = D68E942B1FF4C7CC0075F5AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68E941B1FF4C7CC0075F5AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68E941C1FF4C7CC0075F5AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D68E94201FF4C7CC0075F5AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68E94211FF4C7CC0075F5AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68E94311FF4C7CC0075F5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D68E94321FF4C7CC0075F5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68E94341FF4C7CC0075F5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E2D7100716ACA44A82080D /* Pods-TYNFC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TYNFC/TYNFC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URQEEA39GQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYNFCUITests/TYNFCPrefixHeader.pch";
+				INFOPLIST_FILE = TYNFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tynfc.tongyingkeji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D68E94351FF4C7CC0075F5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AEC20FE474B788009827F7 /* Pods-TYNFC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = TYNFC/TYNFC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URQEEA39GQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYNFCUITests/TYNFCPrefixHeader.pch";
+				INFOPLIST_FILE = TYNFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tynfc.tongyingkeji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D68E94371FF4C7CC0075F5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URQEEA39GQ;
+				INFOPLIST_FILE = TYNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyi.TYNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYNFC;
+			};
+			name = Debug;
+		};
+		D68E94381FF4C7CC0075F5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URQEEA39GQ;
+				INFOPLIST_FILE = TYNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyi.TYNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TYNFC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68E940D1FF4C7CC0075F5AB /* Build configuration list for PBXProject "TYNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68E94311FF4C7CC0075F5AB /* Debug */,
+				D68E94321FF4C7CC0075F5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68E94331FF4C7CC0075F5AB /* Build configuration list for PBXNativeTarget "TYNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68E94341FF4C7CC0075F5AB /* Debug */,
+				D68E94351FF4C7CC0075F5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68E94361FF4C7CC0075F5AB /* Build configuration list for PBXNativeTarget "TYNFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68E94371FF4C7CC0075F5AB /* Debug */,
+				D68E94381FF4C7CC0075F5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68E940A1FF4C7CC0075F5AB /* Project object */;
+}

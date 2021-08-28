@@ -1,0 +1,26 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "线下测试"
+    lane :offLine_dev do
+
+build_app(workspace: "美界联盟.xcworkspace", scheme: "美界联盟", export_method: "development", output_directory:"./fastlane/package", configuration:"Release")
+firim(firim_api_token: "84b419bcd66ded236681b80b22f6c85b")
+
+  end
+end

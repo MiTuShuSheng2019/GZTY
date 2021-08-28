@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DEPersonalIntegralExchangeDetailsController">
+            <connections>
+                <outlet property="integralLabel" destination="mQL-bm-ywt" id="Iag-RT-3o5"/>
+                <outlet property="myTableView" destination="bnT-x7-c42" id="dOj-gA-X7M"/>
+                <outlet property="nameLabel" destination="VAz-xB-53G" id="efV-zp-2OD"/>
+                <outlet property="phoneLabel" destination="gbr-Kq-9jv" id="9L4-0e-Vfg"/>
+                <outlet property="view" destination="bAd-9G-5le" id="rsO-ul-nYr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="DEPersonalIntegralExchangeDetailsController" id="bAd-9G-5le">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAz-xB-53G">
+                    <rect key="frame" x="16" y="30" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="del-3I-dKb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbr-Kq-9jv">
+                    <rect key="frame" x="16" y="59" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="18S-L6-R7c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="积分值：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQL-bm-ywt">
+                    <rect key="frame" x="16" y="88" width="343" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="pZT-gn-vAL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gGp-93-zFo">
+                    <rect key="frame" x="0.0" y="121" width="375" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="gJC-Ub-ltB"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bnT-x7-c42">
+                    <rect key="frame" x="0.0" y="122" width="375" height="545"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gGp-93-zFo" firstAttribute="top" secondItem="mQL-bm-ywt" secondAttribute="bottom" constant="12" id="3b6-5s-7hr"/>
+                <constraint firstItem="jn0-R5-gte" firstAttribute="trailing" secondItem="VAz-xB-53G" secondAttribute="trailing" constant="16" id="84W-zb-n5g"/>
+                <constraint firstItem="VAz-xB-53G" firstAttribute="top" secondItem="jn0-R5-gte" secondAttribute="top" constant="10" id="8Ws-Uv-cmE"/>
+                <constraint firstItem="mQL-bm-ywt" firstAttribute="leading" secondItem="jn0-R5-gte" secondAttribute="leading" constant="16" id="BXe-wB-bpi"/>
+                <constraint firstItem="VAz-xB-53G" firstAttribute="leading" secondItem="jn0-R5-gte" secondAttribute="leading" constant="16" id="CRE-Wp-hWf"/>
+                <constraint firstItem="bnT-x7-c42" firstAttribute="bottom" secondItem="jn0-R5-gte" secondAttribute="bottom" id="EVg-oU-rtH"/>
+                <constraint firstItem="bnT-x7-c42" firstAttribute="leading" secondItem="jn0-R5-gte" secondAttribute="leading" id="I6N-YZ-0Jk"/>
+                <constraint firstItem="gGp-93-zFo" firstAttribute="leading" secondItem="bAd-9G-5le" secondAttribute="leading" id="IGP-wO-z7Z"/>
+                <constraint firstItem="jn0-R5-gte" firstAttribute="trailing" secondItem="gbr-Kq-9jv" secondAttribute="trailing" constant="16" id="Ool-lt-8r6"/>
+                <constraint firstItem="mQL-bm-ywt" firstAttribute="top" secondItem="gbr-Kq-9jv" secondAttribute="bottom" constant="8" id="PaZ-Q8-N9u"/>
+                <constraint firstAttribute="trailing" secondItem="gGp-93-zFo" secondAttribute="trailing" id="cgT-c8-S1N"/>
+                <constraint firstItem="bnT-x7-c42" firstAttribute="trailing" secondItem="jn0-R5-gte" secondAttribute="trailing" id="dH1-3b-tpr"/>
+                <constraint firstItem="jn0-R5-gte" firstAttribute="trailing" secondItem="mQL-bm-ywt" secondAttribute="trailing" constant="16" id="fJs-Of-D7l"/>
+                <constraint firstItem="bnT-x7-c42" firstAttribute="top" secondItem="gGp-93-zFo" secondAttribute="bottom" id="g6r-c8-QF9"/>
+                <constraint firstItem="gbr-Kq-9jv" firstAttribute="leading" secondItem="jn0-R5-gte" secondAttribute="leading" constant="16" id="mxv-Ar-ffR"/>
+                <constraint firstItem="gbr-Kq-9jv" firstAttribute="top" secondItem="VAz-xB-53G" secondAttribute="bottom" constant="8" id="uYE-Ww-66K"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="jn0-R5-gte"/>
+            <point key="canvasLocation" x="34.399999999999999" y="52.623688155922046"/>
+        </view>
+    </objects>
+</document>

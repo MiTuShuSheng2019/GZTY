@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TYHistoryShareBonusSubViewController">
+            <connections>
+                <outlet property="myTableView" destination="5S5-fu-C2w" id="x6F-Bq-d0J"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="季度" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rn9-m9-Tjs">
+                    <rect key="frame" x="0.0" y="10" width="125" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="J4r-mt-ho2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="销售金额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQx-Bu-BSg">
+                    <rect key="frame" x="125" y="10" width="125" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的分红" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwO-qh-1sB">
+                    <rect key="frame" x="250" y="10" width="125" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5S5-fu-C2w">
+                    <rect key="frame" x="0.0" y="40" width="375" height="627"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PUD-m8-5aZ"/>
+                        <outlet property="delegate" destination="-1" id="LNj-E7-ViS"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="5S5-fu-C2w" secondAttribute="bottom" id="Hbx-FU-0mG"/>
+                <constraint firstItem="iwO-qh-1sB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="NMx-um-qjv"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="5S5-fu-C2w" secondAttribute="trailing" id="QRC-d4-ggk"/>
+                <constraint firstItem="Rn9-m9-Tjs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Qto-ol-uaU"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="Ttz-hh-9bo"/>
+                <constraint firstItem="iwO-qh-1sB" firstAttribute="leading" secondItem="ZQx-Bu-BSg" secondAttribute="trailing" id="XRE-RV-Pcn"/>
+                <constraint firstItem="iwO-qh-1sB" firstAttribute="leading" secondItem="ZQx-Bu-BSg" secondAttribute="trailing" id="aub-W1-zkv"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="height" secondItem="iwO-qh-1sB" secondAttribute="height" id="bRP-be-4cg"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="iwO-qh-1sB" secondAttribute="trailing" id="cyD-ja-7gi"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="width" secondItem="Rn9-m9-Tjs" secondAttribute="width" id="dnp-VH-c4e"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="height" secondItem="Rn9-m9-Tjs" secondAttribute="height" id="epw-18-XQh"/>
+                <constraint firstItem="5S5-fu-C2w" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="fGR-LU-AWb"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="width" secondItem="iwO-qh-1sB" secondAttribute="width" id="imS-nC-0hJ"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="leading" secondItem="Rn9-m9-Tjs" secondAttribute="trailing" id="jlA-t9-ebI"/>
+                <constraint firstItem="5S5-fu-C2w" firstAttribute="top" secondItem="Rn9-m9-Tjs" secondAttribute="bottom" constant="10" id="tHM-bL-C7j"/>
+                <constraint firstItem="Rn9-m9-Tjs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="wV5-1C-Oif"/>
+                <constraint firstItem="ZQx-Bu-BSg" firstAttribute="leading" secondItem="Rn9-m9-Tjs" secondAttribute="trailing" id="wXr-p3-jGx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

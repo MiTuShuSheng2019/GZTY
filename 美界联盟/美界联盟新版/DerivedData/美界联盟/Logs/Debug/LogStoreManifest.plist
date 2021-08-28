@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>136FD019-8CBA-40CD-ADA1-9F3B550AFC5F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>136FD019-8CBA-40CD-ADA1-9F3B550AFC5F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>美界联盟 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>美界联盟</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug 美界联盟</string>
+			<key>timeStartedRecording</key>
+			<real>596706470.16136098</real>
+			<key>timeStoppedRecording</key>
+			<real>596706765.93977797</real>
+			<key>title</key>
+			<string>Debug 美界联盟</string>
+			<key>uniqueIdentifier</key>
+			<string>136FD019-8CBA-40CD-ADA1-9F3B550AFC5F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TYAuthorizationView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VyZ-45-Gml">
+                    <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm2-XB-PTA">
+                            <rect key="frame" x="10" y="55" width="355" height="35"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="TYS-0Y-j8a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ClickCance" destination="iN0-l3-epB" eventType="touchUpInside" id="s7Q-Mc-A2I"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFM-Bd-2nF">
+                            <rect key="frame" x="10" y="10" width="355" height="35"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="2q9-k0-p1z"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="保存">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ClickSave" destination="iN0-l3-epB" eventType="touchUpInside" id="UTJ-HA-Cx1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="kFM-Bd-2nF" firstAttribute="leading" secondItem="VyZ-45-Gml" secondAttribute="leading" constant="10" id="PpE-oB-Oci"/>
+                        <constraint firstAttribute="trailing" secondItem="kFM-Bd-2nF" secondAttribute="trailing" constant="10" id="Wxs-ay-TYH"/>
+                        <constraint firstItem="mm2-XB-PTA" firstAttribute="leading" secondItem="VyZ-45-Gml" secondAttribute="leading" constant="10" id="XH3-eC-4ov"/>
+                        <constraint firstAttribute="height" constant="100" id="XQB-9C-2zv"/>
+                        <constraint firstAttribute="bottom" secondItem="mm2-XB-PTA" secondAttribute="bottom" constant="10" id="dRc-Zw-bde"/>
+                        <constraint firstItem="mm2-XB-PTA" firstAttribute="top" secondItem="kFM-Bd-2nF" secondAttribute="bottom" constant="10" id="ewm-2I-WGh"/>
+                        <constraint firstAttribute="trailing" secondItem="mm2-XB-PTA" secondAttribute="trailing" constant="10" id="xqH-1z-Cfm"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HhZ-7N-VCY">
+                    <rect key="frame" x="20" y="40" width="335" height="512"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="VyZ-45-Gml" secondAttribute="trailing" id="0fv-dt-reP"/>
+                <constraint firstItem="HhZ-7N-VCY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="1BG-76-fWk"/>
+                <constraint firstItem="VyZ-45-Gml" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5Y8-WZ-3bv"/>
+                <constraint firstItem="VyZ-45-Gml" firstAttribute="top" secondItem="HhZ-7N-VCY" secondAttribute="bottom" constant="15" id="ACz-FI-1ZI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HhZ-7N-VCY" secondAttribute="trailing" constant="20" id="Tbr-iT-NM8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="VyZ-45-Gml" secondAttribute="bottom" id="csU-cR-CJf"/>
+                <constraint firstItem="HhZ-7N-VCY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="v5c-iY-h1I"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="AuthorizationImageView" destination="HhZ-7N-VCY" id="Pr6-0m-79t"/>
+            </connections>
+        </view>
+    </objects>
+</document>

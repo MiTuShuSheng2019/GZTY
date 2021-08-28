@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TYNFC/SweepCode_&#x626b;&#x7801;&#x67e5;&#x8be2;/Controller/TYQRCodeViewController.m"
+            timestampString = "538018564.872713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "-requestCodeTepy:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TYNFC/SweepCode_&#x626b;&#x7801;&#x67e5;&#x8be2;/Controller/TYQRCodeViewController.m"
+            timestampString = "538018564.872771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "-requestCodeVerificationQuery:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__55-[TYQRCodeViewController requestCodeVerificationQuery:]_block_invoke_2"
+                  moduleName = "TYNFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyi/Job/APP/iOS/Project/2018/TYNFC/TYNFC/SweepCode_%E6%89%AB%E7%A0%81%E6%9F%A5%E8%AF%A2/Controller/TYQRCodeViewController.m"
+                  timestampString = "538018282.112661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__55-[TYQRCodeViewController requestCodeVerificationQuery:]_block_invoke_3"
+                  moduleName = "TYNFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyi/Job/APP/iOS/Project/2018/TYNFC/TYNFC/SweepCode_%E6%89%AB%E7%A0%81%E6%9F%A5%E8%AF%A2/Controller/TYQRCodeViewController.m"
+                  timestampString = "538018282.1148289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TYNFC/SweepCode_&#x626b;&#x7801;&#x67e5;&#x8be2;/Controller/TYQRCodeViewController.m"
+            timestampString = "538018564.872822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "-requestBlackAndWhiteYards:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__52-[TYQRCodeViewController requestBlackAndWhiteYards:]_block_invoke_2"
+                  moduleName = "TYNFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyi/Job/APP/iOS/Project/2018/TYNFC/TYNFC/SweepCode_%E6%89%AB%E7%A0%81%E6%9F%A5%E8%AF%A2/Controller/TYQRCodeViewController.m"
+                  timestampString = "538018282.1196949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__52-[TYQRCodeViewController requestBlackAndWhiteYards:]_block_invoke_3"
+                  moduleName = "TYNFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyi/Job/APP/iOS/Project/2018/TYNFC/TYNFC/SweepCode_%E6%89%AB%E7%A0%81%E6%9F%A5%E8%AF%A2/Controller/TYQRCodeViewController.m"
+                  timestampString = "538018282.1216069"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "247"
+                  endingLineNumber = "247"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TYNFC/SweepCode_&#x626b;&#x7801;&#x67e5;&#x8be2;/Controller/TYQRCodeViewController.m"
+            timestampString = "538018564.872916"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

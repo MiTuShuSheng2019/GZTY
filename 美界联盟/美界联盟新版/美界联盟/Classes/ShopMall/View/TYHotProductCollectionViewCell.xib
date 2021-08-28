@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TYHotProductCollectionViewCell" id="gTV-IL-0wX" customClass="TYHotProductCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HHx-zv-ukC">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="225"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="HHx-zv-ukC" secondAttribute="height" multiplier="8:9" id="Hih-GL-nWL"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kI9-Qj-mGY">
+                        <rect key="frame" x="0.0" y="225" width="200" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diX-i0-uXA">
+                                <rect key="frame" x="5" y="5" width="190" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="vCk-jc-lgg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15g-Kf-5fc">
+                                <rect key="frame" x="5" y="25" width="152" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Efo-b0-3Pj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.10980392160000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAb-fK-FmJ">
+                                <rect key="frame" x="167" y="17" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="8SF-SU-h57"/>
+                                    <constraint firstAttribute="width" constant="28" id="XnY-hU-cpc"/>
+                                </constraints>
+                                <state key="normal" image="yellow_share_icon"/>
+                                <connections>
+                                    <action selector="ClickShare:" destination="gTV-IL-0wX" eventType="touchUpInside" id="T3G-V0-kDl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TAb-fK-FmJ" secondAttribute="trailing" constant="5" id="00m-L6-xpn"/>
+                            <constraint firstItem="diX-i0-uXA" firstAttribute="top" secondItem="kI9-Qj-mGY" secondAttribute="top" constant="5" id="AgC-1A-Mle"/>
+                            <constraint firstAttribute="trailing" secondItem="diX-i0-uXA" secondAttribute="trailing" constant="5" id="CMi-0m-JLO"/>
+                            <constraint firstItem="TAb-fK-FmJ" firstAttribute="leading" secondItem="15g-Kf-5fc" secondAttribute="trailing" constant="10" id="CwL-H4-vUn"/>
+                            <constraint firstAttribute="bottom" secondItem="TAb-fK-FmJ" secondAttribute="bottom" constant="5" id="Za8-HD-aZa"/>
+                            <constraint firstItem="diX-i0-uXA" firstAttribute="leading" secondItem="kI9-Qj-mGY" secondAttribute="leading" constant="5" id="cq4-xK-zgl"/>
+                            <constraint firstAttribute="height" constant="50" id="ecg-BY-uHw"/>
+                            <constraint firstItem="15g-Kf-5fc" firstAttribute="top" secondItem="diX-i0-uXA" secondAttribute="bottom" constant="5" id="i8O-Ku-lzG"/>
+                            <constraint firstItem="15g-Kf-5fc" firstAttribute="leading" secondItem="kI9-Qj-mGY" secondAttribute="leading" constant="5" id="o1e-Fd-F6P"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kI9-Qj-mGY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3K2-eH-Efb"/>
+                <constraint firstAttribute="trailing" secondItem="kI9-Qj-mGY" secondAttribute="trailing" id="3Sp-zw-avc"/>
+                <constraint firstItem="HHx-zv-ukC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="9Eu-xv-Ard"/>
+                <constraint firstItem="HHx-zv-ukC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="M0E-08-UCr"/>
+                <constraint firstAttribute="trailing" secondItem="HHx-zv-ukC" secondAttribute="trailing" id="ifD-8j-2b9"/>
+                <constraint firstItem="kI9-Qj-mGY" firstAttribute="top" secondItem="HHx-zv-ukC" secondAttribute="bottom" id="yST-Jh-pSs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="shareBtn" destination="TAb-fK-FmJ" id="OHc-ex-hUl"/>
+                <outlet property="shopImageView" destination="HHx-zv-ukC" id="stj-h7-Qt8"/>
+                <outlet property="shopNameLabel" destination="diX-i0-uXA" id="pPT-rR-9I0"/>
+                <outlet property="shopPriceLabel" destination="15g-Kf-5fc" id="CPH-9h-h5Q"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="yellow_share_icon" width="32" height="32"/>
+    </resources>
+</document>

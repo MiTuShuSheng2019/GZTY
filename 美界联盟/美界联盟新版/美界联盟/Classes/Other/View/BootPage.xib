@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TYBootPageView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sh6-8X-xo4">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boot_page_1" translatesAutoresizingMaskIntoConstraints="NO" id="CZ5-oG-SCL">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="668"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boot_page_2" translatesAutoresizingMaskIntoConstraints="NO" id="BlZ-Bi-EeT">
+                            <rect key="frame" x="0.0" y="668" width="375" height="667"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iae-az-OUF">
+                            <rect key="frame" x="93" y="1250" width="188.5" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="k05-ua-wHB"/>
+                            </constraints>
+                            <connections>
+                                <action selector="cancelAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZGY-vS-RhZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="BlZ-Bi-EeT" firstAttribute="top" secondItem="CZ5-oG-SCL" secondAttribute="bottom" id="3gf-a8-dRk"/>
+                        <constraint firstAttribute="trailing" secondItem="CZ5-oG-SCL" secondAttribute="trailing" id="7kk-X9-L6w"/>
+                        <constraint firstItem="BlZ-Bi-EeT" firstAttribute="width" secondItem="Sh6-8X-xo4" secondAttribute="width" id="CMu-V1-awy"/>
+                        <constraint firstItem="CZ5-oG-SCL" firstAttribute="leading" secondItem="Sh6-8X-xo4" secondAttribute="leading" id="SVs-18-p3e"/>
+                        <constraint firstAttribute="bottom" secondItem="BlZ-Bi-EeT" secondAttribute="bottom" id="UXq-4o-BWw"/>
+                        <constraint firstItem="BlZ-Bi-EeT" firstAttribute="height" secondItem="Sh6-8X-xo4" secondAttribute="height" id="UfX-iL-aRm"/>
+                        <constraint firstItem="BlZ-Bi-EeT" firstAttribute="bottom" secondItem="Iae-az-OUF" secondAttribute="bottom" constant="45" id="UvL-Ix-jDi"/>
+                        <constraint firstItem="Iae-az-OUF" firstAttribute="centerX" secondItem="Sh6-8X-xo4" secondAttribute="centerX" id="fXy-Oz-evi"/>
+                        <constraint firstItem="CZ5-oG-SCL" firstAttribute="top" secondItem="Sh6-8X-xo4" secondAttribute="top" id="jcx-k3-rxv"/>
+                        <constraint firstItem="BlZ-Bi-EeT" firstAttribute="leading" secondItem="Sh6-8X-xo4" secondAttribute="leading" id="p0c-3l-n47"/>
+                        <constraint firstAttribute="trailing" secondItem="BlZ-Bi-EeT" secondAttribute="trailing" id="z8a-bW-u1J"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Sh6-8X-xo4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0xw-Mr-JY8"/>
+                <constraint firstItem="CZ5-oG-SCL" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" constant="1" id="2vU-rJ-vt7"/>
+                <constraint firstItem="Sh6-8X-xo4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="A1M-TY-wpd"/>
+                <constraint firstItem="Sh6-8X-xo4" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ZoL-FG-IQx"/>
+                <constraint firstItem="Iae-az-OUF" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:2" constant="1" id="n2g-sV-LMR"/>
+                <constraint firstItem="Sh6-8X-xo4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="shw-s7-fvc"/>
+                <constraint firstItem="CZ5-oG-SCL" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="vd6-vr-fJd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="buttonHeightLC" destination="k05-ua-wHB" id="1KA-3L-gzs"/>
+                <outlet property="buttonMaginBottomLC" destination="UvL-Ix-jDi" id="ATI-A0-TdS"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="boot_page_1" width="375" height="667"/>
+        <image name="boot_page_2" width="375" height="667"/>
+    </resources>
+</document>

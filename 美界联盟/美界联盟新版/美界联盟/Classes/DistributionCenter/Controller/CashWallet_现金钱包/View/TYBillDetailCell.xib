@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TYBillDetailCell" id="KGk-i7-Jjw" customClass="TYBillDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上级充值增加" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLa-R3-0t3">
+                        <rect key="frame" x="10" y="12" width="86" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="90" id="IuJ-Kk-LOw"/>
+                            <constraint firstAttribute="height" constant="18" id="rlY-tk-C68"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥100000.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssZ-ii-hbp">
+                        <rect key="frame" x="101" y="12" width="73.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.062745098039215685" green="0.57647058823529407" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018-11-1 90:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rT1-um-IVt">
+                        <rect key="frame" x="209.5" y="12" width="100.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="5Nn-np-GNm"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="105" id="ULK-aP-042"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刘小燚（执行董事）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3N-Ie-Q6o">
+                        <rect key="frame" x="10" y="47.5" width="138" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="F87-mq-HNO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HLa-R3-0t3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="30t-TC-DX5"/>
+                    <constraint firstAttribute="trailing" secondItem="rT1-um-IVt" secondAttribute="trailing" constant="10" id="3cg-g1-jvM"/>
+                    <constraint firstItem="ssZ-ii-hbp" firstAttribute="leading" secondItem="HLa-R3-0t3" secondAttribute="trailing" constant="5" id="51F-ha-XHX"/>
+                    <constraint firstItem="ssZ-ii-hbp" firstAttribute="height" secondItem="HLa-R3-0t3" secondAttribute="height" id="Afk-eQ-Yg7"/>
+                    <constraint firstItem="rT1-um-IVt" firstAttribute="top" secondItem="HLa-R3-0t3" secondAttribute="top" id="Id6-MT-cXu"/>
+                    <constraint firstItem="HLa-R3-0t3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="aKu-iD-UbM"/>
+                    <constraint firstItem="ssZ-ii-hbp" firstAttribute="top" secondItem="HLa-R3-0t3" secondAttribute="top" id="cp5-iw-rxy"/>
+                    <constraint firstAttribute="bottom" secondItem="g3N-Ie-Q6o" secondAttribute="bottom" constant="12" id="pNO-3t-JzZ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ssZ-ii-hbp" secondAttribute="trailing" constant="120" id="s38-Ej-xe4"/>
+                    <constraint firstItem="g3N-Ie-Q6o" firstAttribute="top" secondItem="HLa-R3-0t3" secondAttribute="bottom" constant="17.5" id="tfa-6k-ldx"/>
+                    <constraint firstItem="g3N-Ie-Q6o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ybn-rz-s31"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="contentLab" destination="HLa-R3-0t3" id="mgb-fw-mA6"/>
+                <outlet property="moneyLab" destination="ssZ-ii-hbp" id="DBT-k2-6Cr"/>
+                <outlet property="nameLab" destination="g3N-Ie-Q6o" id="msb-rM-AWw"/>
+                <outlet property="timeLab" destination="rT1-um-IVt" id="6sU-td-Qog"/>
+            </connections>
+            <point key="canvasLocation" x="76.799999999999997" y="48.575712143928037"/>
+        </tableViewCell>
+    </objects>
+</document>

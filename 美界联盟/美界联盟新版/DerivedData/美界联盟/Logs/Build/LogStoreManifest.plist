@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>B9ADFE6D-F870-4A0D-A411-CA55B603383A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B9ADFE6D-F870-4A0D-A411-CA55B603383A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>美界联盟 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>美界联盟</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 美界联盟</string>
+			<key>timeStartedRecording</key>
+			<real>597661064.00355804</real>
+			<key>timeStoppedRecording</key>
+			<real>597661127.01133704</real>
+			<key>title</key>
+			<string>Build 美界联盟</string>
+			<key>uniqueIdentifier</key>
+			<string>B9ADFE6D-F870-4A0D-A411-CA55B603383A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

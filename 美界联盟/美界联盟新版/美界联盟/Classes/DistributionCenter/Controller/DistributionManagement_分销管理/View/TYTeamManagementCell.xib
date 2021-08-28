@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TYTeamManagementCell" id="KGk-i7-Jjw" customClass="TYTeamManagementCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERp-Gw-E2O">
+                        <rect key="frame" x="10" y="14.5" width="37.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="hWA-8g-hFD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="go_to" translatesAutoresizingMaskIntoConstraints="NO" id="S4V-kn-dlo">
+                        <rect key="frame" x="295" y="17" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="Soq-2e-lrI"/>
+                            <constraint firstAttribute="height" constant="15" id="jQI-K1-L5l"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="az0-PM-Wwq">
+                        <rect key="frame" x="252.5" y="14.5" width="37.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="98d-23-4sg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7X-Dy-LF8" userLabel="分割线">
+                        <rect key="frame" x="0.0" y="49" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="kOd-Hu-kRd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="az0-PM-Wwq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Jwg-Eu-Gdj"/>
+                    <constraint firstAttribute="bottom" secondItem="G7X-Dy-LF8" secondAttribute="bottom" id="LCs-Rh-KTL"/>
+                    <constraint firstItem="S4V-kn-dlo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NzZ-U4-3me"/>
+                    <constraint firstAttribute="trailing" secondItem="G7X-Dy-LF8" secondAttribute="trailing" id="Or6-5m-en7"/>
+                    <constraint firstItem="ERp-Gw-E2O" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Rf1-5l-tU6"/>
+                    <constraint firstItem="G7X-Dy-LF8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UX2-X6-pkL"/>
+                    <constraint firstItem="S4V-kn-dlo" firstAttribute="leading" secondItem="az0-PM-Wwq" secondAttribute="trailing" constant="5" id="aHx-Ue-920"/>
+                    <constraint firstAttribute="trailing" secondItem="S4V-kn-dlo" secondAttribute="trailing" constant="10" id="buQ-DI-mF9"/>
+                    <constraint firstItem="ERp-Gw-E2O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="rTR-v8-Or3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="nameLabel" destination="ERp-Gw-E2O" id="s9t-97-W0Y"/>
+                <outlet property="numberLabel" destination="az0-PM-Wwq" id="snr-dj-pwu"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="go_to" width="20" height="20"/>
+    </resources>
+</document>

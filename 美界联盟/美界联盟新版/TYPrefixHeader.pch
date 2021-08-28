@@ -1,0 +1,74 @@
+//
+//  TYPrefixHeader.pch
+//  美界联盟
+//
+//  Created by LY on 2017/10/23.
+//  Copyright © 2017年 刘燚. All rights reserved.
+//
+
+#ifndef TYPrefixHeader_pch
+#define TYPrefixHeader_pch
+
+#import "TYHeader.h"
+
+//百度地图APPKey
+#define DF_BaiduMapKey @"Tg8Bn673Y48XvlBhv5tvzrUsRrTFrNUb"
+#define DF_NSBoundLoadXib(name)  [[[NSBundle mainBundle] loadNibNamed:name owner:nil options:nil] firstObject] //通用xib加载view
+//微信分享id
+#define WeChatShareAppID @"wx1120bacdcf0b4cef"
+
+//以下两个地址是通用的只需要更改id即可，把id更换为对应的Apple ID ，Apple ID在更新APP的网站中的APP信息栏可找到
+//版本更新请求地址
+#define VersionUpdateRequest @"http://itunes.apple.com/cn/lookup?id=1288912246"
+//版本更新下载地址
+#define VersionDownloadRequest @"https://itunes.apple.com/us/app/bang-bang-bang-lin-li-zhi/id1288912246?l=zh&ls=1&mt=8"
+
+//分销商城HTML5地址
+#define DistributionCentreUrl @"http://sc.mjlm888.com/Html/Mall/index.html#/Index"
+
+//图片的前缀
+#define PhotoUrl @"https://mapp.mjlm888.com"
+//正式库http://mapi.mjlm888.com/
+//测试库http://90.10.1.250:1778/
+
+//APP接口请求地址
+//#define APP_REQUEST_URL @"http://120.76.152.252:78/"
+//#define APP_REQUEST_URL @"http://mapi.mjlm888.com/"
+
+//#define APP_REQUEST_URL @"http://192.168.2.26:1263/"
+#define APP_REQUEST_URL @"https://mapp.mjlm888.com/"
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHOZNE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+
+#define EVERYDAYONLYCALLONCE @"everydayOnlyCallOnce"
+
+//判断是不是iPhone X
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+//推送APPid 推送APPkey
+#define PUSH_APPID 2200319936
+#define PUSH_APPKEY @"IBD1764A4AEM"
+
+#import "ShowMessage.h"
+
+//打印宏定义，发布的时候注释掉
+//#ifdef DEBUG
+//#define TYLog(...) NSLog(__VA_ARGS__)
+//#else
+//#define TYLog(...)
+//#endif
+
+#endif /* TYPrefixHeader_pch */

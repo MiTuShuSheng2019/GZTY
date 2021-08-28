@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TYLoginChooseViewController">
+            <connections>
+                <outlet property="consumerBtn" destination="m7S-f0-JuS" id="H2M-8G-KN4"/>
+                <outlet property="versionLabel" destination="ZFw-wY-xye" id="AdJ-XX-FeC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_login" translatesAutoresizingMaskIntoConstraints="NO" id="sK1-wS-jgh">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="zR7-Zc-nnT">
+                    <rect key="frame" x="124.5" y="50" width="125" height="155"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="155" id="MVm-UY-eNr"/>
+                        <constraint firstAttribute="width" constant="125" id="i0n-3O-6vq"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7S-f0-JuS">
+                    <rect key="frame" x="25" y="255" width="325" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="oHa-dN-fcc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="消费者商登录" backgroundImage="but">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="ConsumerLogin" destination="-1" eventType="touchUpInside" id="9fr-u3-5iK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oos-rS-kFX">
+                    <rect key="frame" x="25" y="335" width="325" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="tku-Ja-bUF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="分销商者登录" backgroundImage="but">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="DistributorLogin" destination="-1" eventType="touchUpInside" id="xjp-pA-sMZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFw-wY-xye">
+                    <rect key="frame" x="166.5" y="636" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zR7-Zc-nnT" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="30" id="7lN-xK-rKb"/>
+                <constraint firstItem="ZFw-wY-xye" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7rZ-DV-BcK"/>
+                <constraint firstItem="m7S-f0-JuS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8xu-Ea-CHD"/>
+                <constraint firstItem="sK1-wS-jgh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="B2Z-C7-ErN"/>
+                <constraint firstItem="Oos-rS-kFX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MAe-Xq-2qY"/>
+                <constraint firstItem="m7S-f0-JuS" firstAttribute="top" secondItem="zR7-Zc-nnT" secondAttribute="bottom" constant="50" id="Oij-X2-v76"/>
+                <constraint firstItem="Oos-rS-kFX" firstAttribute="top" secondItem="m7S-f0-JuS" secondAttribute="bottom" constant="30" id="OxE-4k-kih"/>
+                <constraint firstItem="sK1-wS-jgh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="U4p-fH-UKg"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="sK1-wS-jgh" secondAttribute="bottom" id="af1-2V-YjX"/>
+                <constraint firstItem="m7S-f0-JuS" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="d4d-MU-L2x"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Oos-rS-kFX" secondAttribute="trailing" constant="25" id="f06-K6-4nv"/>
+                <constraint firstItem="sK1-wS-jgh" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="gHz-S7-MP4"/>
+                <constraint firstItem="Oos-rS-kFX" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="25" id="jfo-vy-4SX"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="ZFw-wY-xye" secondAttribute="bottom" constant="10" id="kXU-yg-hwb"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="m7S-f0-JuS" secondAttribute="trailing" constant="25" id="rBl-cS-cv2"/>
+                <constraint firstItem="zR7-Zc-nnT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sP4-TJ-BUS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_login" width="375" height="667"/>
+        <image name="but" width="304" height="40"/>
+        <image name="login_logo" width="125" height="155"/>
+    </resources>
+</document>

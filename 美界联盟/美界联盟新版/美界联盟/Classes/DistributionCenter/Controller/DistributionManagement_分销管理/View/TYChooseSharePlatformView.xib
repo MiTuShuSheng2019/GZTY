@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TYChooseSharePlatformView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sNC-GE-hHU">
+                    <rect key="frame" x="20" y="241" width="335" height="185"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择要分享到的平台" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dR-Eu-c6g">
+                            <rect key="frame" x="10" y="14.5" width="315" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f1-wh-lkN">
+                            <rect key="frame" x="0.0" y="140" width="335" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Q5L-zO-ELb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="取消分享">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="canceShare" destination="iN0-l3-epB" eventType="touchUpInside" id="kS9-6v-mYH"/>
+                            </connections>
+                        </button>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="VQu-bS-sDD">
+                            <rect key="frame" x="0.0" y="44" width="335" height="96"/>
+                            <color key="backgroundColor" red="0.91372549020000005" green="0.93725490199999995" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Psm-iM-M6B">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.91372549020000005" green="0.93725490199999995" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="8f1-wh-lkN" secondAttribute="trailing" id="0i4-YM-Eb0"/>
+                        <constraint firstItem="0dR-Eu-c6g" firstAttribute="top" secondItem="sNC-GE-hHU" secondAttribute="top" constant="15" id="3qD-Wa-WSE"/>
+                        <constraint firstAttribute="trailing" secondItem="VQu-bS-sDD" secondAttribute="trailing" id="7zA-52-bwP"/>
+                        <constraint firstItem="VQu-bS-sDD" firstAttribute="leading" secondItem="sNC-GE-hHU" secondAttribute="leading" id="B4h-zn-DXk"/>
+                        <constraint firstItem="0dR-Eu-c6g" firstAttribute="leading" secondItem="sNC-GE-hHU" secondAttribute="leading" constant="10" id="U3C-Ka-mrm"/>
+                        <constraint firstAttribute="bottom" secondItem="8f1-wh-lkN" secondAttribute="bottom" id="gus-w8-Ei4"/>
+                        <constraint firstItem="8f1-wh-lkN" firstAttribute="leading" secondItem="sNC-GE-hHU" secondAttribute="leading" id="hcp-yJ-C40"/>
+                        <constraint firstItem="0dR-Eu-c6g" firstAttribute="centerX" secondItem="sNC-GE-hHU" secondAttribute="centerX" id="jdY-zi-wNx"/>
+                        <constraint firstItem="VQu-bS-sDD" firstAttribute="top" secondItem="0dR-Eu-c6g" secondAttribute="bottom" constant="10" id="l0e-bt-qeX"/>
+                        <constraint firstItem="8f1-wh-lkN" firstAttribute="top" secondItem="VQu-bS-sDD" secondAttribute="bottom" id="oXw-5W-blX"/>
+                        <constraint firstAttribute="height" constant="185" id="qnc-yW-kxe"/>
+                        <constraint firstAttribute="trailing" secondItem="0dR-Eu-c6g" secondAttribute="trailing" constant="10" id="uSt-iD-Cms"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="sNC-GE-hHU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5fX-aK-kNm"/>
+                <constraint firstItem="sNC-GE-hHU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="6cE-jH-5N3"/>
+                <constraint firstItem="sNC-GE-hHU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="il3-9O-kRl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sNC-GE-hHU" secondAttribute="trailing" constant="20" id="p6w-AP-Ik9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backView" destination="sNC-GE-hHU" id="iuv-jX-aZ9"/>
+                <outlet property="myCollectionView" destination="VQu-bS-sDD" id="Nqz-Iu-Bi9"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+target '美界联盟' do
+pod 'FMDB'
+pod 'AFNetworking'
+pod 'BEMCheckBox'
+pod 'BaiduMapKit' #百度地图SDK
+pod "QBImagePickerController"
+pod 'SGQRCode'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'SDCycleScrollView'
+pod 'SDWebImage'
+pod 'QQ_XGPush'
+pod 'WechatOpenSDK'
+pod 'SVProgressHUD'
+pod 'Bugly'
+pod 'Masonry'
+pod 'UITableView+FDTemplateLayoutCell'
+end

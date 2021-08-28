@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TYWantAppointmentTwoCell" id="KGk-i7-Jjw" customClass="TYWantAppointmentTwoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEG-Ca-N6F">
+                        <rect key="frame" x="10" y="9" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="7KX-Hf-VYx"/>
+                            <constraint firstAttribute="width" constant="30" id="mxd-35-kho"/>
+                        </constraints>
+                        <state key="normal" image="address_nothing_choose"/>
+                        <state key="selected" image="address_choose"/>
+                        <connections>
+                            <action selector="choose:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="73s-h1-BbS"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xav-xb-b03">
+                        <rect key="frame" x="45" y="16.5" width="265" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eEG-Ca-N6F" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="09h-O9-NI4"/>
+                    <constraint firstAttribute="trailing" secondItem="xav-xb-b03" secondAttribute="trailing" constant="10" id="3Pb-jZ-tJj"/>
+                    <constraint firstItem="eEG-Ca-N6F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="C2b-zW-hF1"/>
+                    <constraint firstItem="xav-xb-b03" firstAttribute="leading" secondItem="eEG-Ca-N6F" secondAttribute="trailing" constant="5" id="TbF-QP-Hd4"/>
+                    <constraint firstItem="xav-xb-b03" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sDB-cr-AeB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="chooseBtn" destination="eEG-Ca-N6F" id="aOo-6W-O8I"/>
+                <outlet property="nameLabel" destination="xav-xb-b03" id="5Et-ra-k6h"/>
+            </connections>
+            <point key="canvasLocation" x="-50" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="address_choose" width="24" height="24"/>
+        <image name="address_nothing_choose" width="24" height="24"/>
+    </resources>
+</document>
